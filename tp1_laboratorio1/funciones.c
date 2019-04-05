@@ -3,34 +3,36 @@
 
 //Se creó esta biblioteca para hacer los cuerpos de cada operacion solicitada
 
-//En esta funcion se inica la operacion de la suma
+//En esta funcion se inicia la operacion de la suma
 int Suma(int x, int y)
     {
         return x + y;
     }
-//En esta funcion se inica la operacion de la resta
+//En esta funcion se inicia la operacion de la resta
 int Resta(int x, int y)
     {
         return x - y;
     }
-//En esta funcion se inica la operacion de la multiplicacion
+//En esta funcion se inicia la operacion de la multiplicacion
 int Multiplicacion(int x, int y){
         return x * y;
     }
-//En esta funcion se inica la operacion de la division
+//En esta funcion se inicia la operacion de la division
 unsigned int Division(int x, int y){
         return x / y;
     }
-//En esta funcion se inica la operacion de las factorizaciones
-unsigned int Factorizacion (int x, int y)
-    {
-        int resp=1;
-        int i;
-        for (i=1; i>x; i--)
+//En esta funcion se inicia la operacion de las factorizaciones
+unsigned int factorial(int n)
 {
-resp=resp*i;
-}
+    int resp=1;
+    int i;
+        for (i=n; i>0; i--)
+        {
+            resp=resp*i;
+        }
 return (resp);
-    }
+}
+
+
 
 

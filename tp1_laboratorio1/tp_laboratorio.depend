@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1554431455 source:c:\users\acer\desktop\tp_laboratorio\funciones.c
+	<stdio.h>
+	<stdlib.h>
+
+1554433063 source:c:\users\acer\desktop\tp_laboratorio\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1554431422 c:\users\acer\desktop\tp_laboratorio\funciones.h
+
